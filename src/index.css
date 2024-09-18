@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-image: url('https://img.freepik.com/free-vector/abstract-black-lines-geometric-background_677411-2748.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 900;
+}
+
+.nav-link {
+    position: relative;
+    transition: all 0.4s;
+  }
+  
+  .nav-link:hover {
+    color: black;
+  }
+  
+  .nav-link::after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    background-color:red;
+    display: block;
+    position: absolute;
+    bottom: -2px; 
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.4s; 
+  }
+  
+  .nav-link:hover::after {
+    opacity: 1;
+  }
+
+  /* From Uiverse.io by vikiWayne */ 
+.button {
+    padding: 1em 2em;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: red;
+    transition: all 1000ms;
+    font-size: 15px;
+    position: relative;
+    overflow: hidden;
+    outline: 2px solid red;
+  }
+  
+  button:hover {
+    color: #ffffff;
+    transform: scale(1.1);
+    outline: 2px solid red;
+    box-shadow: 4px 5px 17px -4px red;
+  }
+  
+  button::before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: red;
+    transform: skewX(45deg);
+    z-index: -1;
+    transition: width 1000ms;
+  }
+  
+  button:hover::before {
+    width: 250%;
+  }
+  
+  
+  .HTML::after {
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: -8px; 
+    border: 3px solid red;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+
+
+  .double-underline {
+    display: inline-block; /* Ensures the underline appears under the text only */
+    position: relative;    /* Necessary for positioning the pseudo-elements */
+  }
+  
+  .double-underline::before,
+  .double-underline::after {
+    content: "";           /* Empty content for creating lines */
+    position: absolute;    /* Positions the lines relative to the heading */
+    left: 0;               /* Aligns lines to the start of the text */
+    right: 0;              /* Stretches lines to the end of the text */
+    height: 3px;           /* Height (thickness) of the lines */
+    background-color: red; /* Color of the underline */
+  }
+  
+  .double-underline::before {
+    bottom: -9px;  /* Position of the first underline relative to the text */
+    width: 50%;
+  }
+  
+  .double-underline::after {
+    bottom: -15px; /* Position of the second underline relative to the text */
+    width: 25%;
+  }
+  
+
+
+
+
+
+
+  .container-image{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0; /* Set initial opacity to 0 */
+    background: rgba(223, 14, 14, 0.5); /* Semi-transparent black background */
+    cursor: pointer;
+    transition: opacity 0.4s ease-in-out;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  
+    
+}
+.container-image:hover .overlay {
+    opacity: 3; /* Change opacity to 1 on hover */
+}
