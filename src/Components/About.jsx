@@ -7,7 +7,6 @@ import EmadCV from "../../images/EmadCV.pdf";
 import { HashLink as Link } from "react-router-hash-link";
 // import Emad5 from "../../images/Emad5.jpeg"
 const About = () => {
-   
   return (
     <>
       <div
@@ -231,12 +230,7 @@ const About = () => {
                     <p className="ps-2">FRONTEND DEVELOPER</p>
                     <p>Techvertz Solution</p>
                   </div>
-                  <p
-                    style={{ lineHeight: "0px", fontSize: "12px" }}
-                    className="ps-2"
-                  >
-                    1 November 2024 - Present
-                  </p>
+
                   <div style={{ lineHeight: "15px", fontSize: "14px" }}>
                     <p>
                       <DoubleArrowIcon />
@@ -255,6 +249,38 @@ const About = () => {
                     </p>
                   </div>
                 </div>
+                <hr />
+                <div>
+                  <div className="d-flex justify-content-between">
+                    <p className="ps-2">MERNSTACK DEVELOPER</p>
+                    <p className="pe-2">SkillRex-Tech</p>
+                  </div>
+
+                  <div style={{ lineHeight: "15px", fontSize: "14px" }}>
+                    <p>
+                      <DoubleArrowIcon />
+                      Developed and maintained dynamic web applications using
+                      the MERN Stack (MongoDB, Express.js, React, Node.js).
+                    </p>
+                    <p>
+                      {" "}
+                      <DoubleArrowIcon /> Implemented RESTful APIs to facilitate
+                      seamless communication between the frontend and backend.
+                    </p>
+                    <p>
+                      {" "}
+                      <DoubleArrowIcon /> Utilized MongoDB for efficient
+                      database management, creating schemas and optimizing data
+                      queries.
+                    </p>
+                    <p>
+                      {" "}
+                      <DoubleArrowIcon /> Enhanced skills in front-end and
+                      back-end development, testing, and debugging through
+                      real-world projects.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -270,6 +296,64 @@ const About = () => {
                 marginTop: "15px",
               }}
             >
+              <div>
+                <p className="ps-2 fw-bold">
+                  {" "}
+                  {/* Adjust the height as needed */}
+                  <HowToRegIcon style={{ height: "35px", width: "auto" }} />
+                  <u>Savory Bite Restaurant Application </u>
+                </p>
+                {/* <p
+                  style={{ lineHeight: "0px", fontSize: "12px" }}
+                  className="text-end"
+                >
+                  {" "}
+                  JUNE 2024 - JULY 2024{" "}
+                </p> */}
+                <div style={{ lineHeight: "15px", fontSize: "14px" }}>
+                  <p>
+                    🍽 Designed & developed a fully functional restaurant
+                    ordering website from scratch using MERN stack (MongoDB,
+                    Express.js, React.js, Node.js) with a seamless user
+                    experience.
+                  </p>
+                  <p>
+                    🔐 Implemented JWT authentication for secure user login and
+                    admin access, ensuring data protection and role-based
+                    authorization.
+                  </p>
+                  <p>
+                    🛒 Built a dynamic menu & order management system, allowing
+                    users to browse dishes, add items to the cart, and place
+                    orders effortlessly.
+                  </p>
+                  <p>
+                    💳 Integrated secure payment gateways (Stripe) to streamline
+                    transactions and enhance user convenience.
+                  </p>
+                  <p>
+                    📦 Implemented stock & inventory tracking, ensuring
+                    availability updates and low-stock alerts for smooth
+                    restaurant operations.
+                  </p>
+                  <p>
+                    🚀 Optimized performance & responsiveness, ensuring a fast,
+                    mobile-friendly, and scalable web application.
+                  </p>
+                  <p>
+                    <DoubleArrowIcon />
+                    <a
+                      href="https://67de2bf2c32c9d5bedc48de8--silly-granita-448aa8.netlify.app/"
+                      className="text-danger"
+                      target="_blank"
+                    >
+                      https://67de2bf2c32c9d5bedc48de8--silly-granita-448aa8.netlify.app/
+                    </a>
+                  </p>
+                </div>
+              </div>
+              <hr />
+              <hr />
               {/* Portfolio Website for PRO VICE CHANCELLOR DAWOOD UNIVERSITY */}
               <div>
                 <p className="pt-2 ps-2 fw-bold">
@@ -281,18 +365,28 @@ const About = () => {
                     Portfolio Website for PRO VICE CHANCELLOR DAWOOD UNIVERSITY{" "}
                   </u>{" "}
                 </p>
-                <p
+                {/* <p
                   style={{ lineHeight: "0px", fontSize: "12px" }}
                   className="text-end"
                 >
                   {" "}
                   OCTOBER 2024 - NOVEMBER 2024{" "}
-                </p>
+                </p> */}
                 <div style={{ lineHeight: "15px", fontSize: "14px" }}>
                   <p>
-                    <DoubleArrowIcon />
-                    Portfolio website is a static Frontend Website for the PRO
-                    VICE CHANCELLOR of DAWOOD UNIVERSITY
+                    🎓 Designed & developed a professional portfolio website for
+                    the PRO VICE CHANCELLOR of Dawood University, showcasing
+                    academic achievements, vision, and leadership.
+                  </p>
+                  <p>
+                    🌐 Built a modern, responsive, and accessible frontend to
+                    ensure seamless browsing across all devices, enhancing user
+                    engagement.
+                  </p>
+                  <p>
+                    📖 Created dedicated sections for biography, research, and
+                    contributions, highlighting key milestones and academic
+                    excellence.
                   </p>
                   <p>
                     <DoubleArrowIcon />
@@ -308,22 +402,17 @@ const About = () => {
               </div>
               <hr />
               {/* JIYA eStore WEBSITE UNIVERSITY */}
+              <hr />
               <div>
                 <p className="ps-2 fw-bold">
                   {" "}
                   <HowToRegIcon
-                    style={{ height: "35px", width: "auto" }}
+                    style={{ height: "30px", width: "auto" }}
                   />{" "}
                   <u>JIYA eStore WEBSITE </u>{" "}
                 </p>
-                <p
-                  style={{ lineHeight: "0px", fontSize: "12px" }}
-                  className="text-end"
-                >
-                  {" "}
-                  MAY 2024 - April 2024{" "}
-                </p>
-                <div style={{ lineHeight: "15px", fontSize: "14px" }}>
+
+                <div style={{ lineHeight: "10px", fontSize: "14px" }}>
                   <p>
                     <DoubleArrowIcon /> Designed and developed a fully
                     functional Grocerry website from scratch using JavaScript
@@ -335,9 +424,9 @@ const About = () => {
                     shopping experience.
                   </p>
                   <p>
-                    <DoubleArrowIcon /> Integrated a robust product catalog and
-                    inventory management system, allowing for easy addition,
-                    update, and deletion of products.
+                    <DoubleArrowIcon />
+                    Developed a dynamic product catalog & inventory system for
+                    easy product addition, updates, and deletion.
                   </p>
                   <p>
                     <DoubleArrowIcon />
@@ -351,45 +440,8 @@ const About = () => {
                   </p>
                 </div>
               </div>{" "}
-              <hr />
-              {/* Accessories WEBSITE  */}
+              {/* Restaurant Application  */}
               {/* http://98.70.74.252/ */}
-              <div>
-                <p className="ps-2 fw-bold">
-                  {" "}
-                  {/* Adjust the height as needed */}
-                  <HowToRegIcon style={{ height: "35px", width: "auto" }} />
-                  <u>ME ACCESSORIES STORE </u>
-                </p>
-                <p
-                  style={{ lineHeight: "0px", fontSize: "12px" }}
-                  className="text-end"
-                >
-                  {" "}
-                  JUNE 2024 - JULY 2024{" "}
-                </p>
-                <div style={{ lineHeight: "15px", fontSize: "14px" }}>
-                  <p>
-                    <DoubleArrowIcon /> Developed an Accessories website from
-                    scratch using JavaScript and mongoDB
-                  </p>
-                  <p>
-                    <DoubleArrowIcon /> Implemented a comprehensive product
-                    catalog and inventory management system, streamlining the
-                    processes for adding, updating, and deleting products.
-                  </p>
-                  <p>
-                    <DoubleArrowIcon />
-                    <a
-                      href="http://98.70.74.252/"
-                      className="text-danger"
-                      target="_blank"
-                    >
-                      http://98.70.74.252/
-                    </a>
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
         </section>

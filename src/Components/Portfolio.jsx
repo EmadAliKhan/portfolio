@@ -2,7 +2,7 @@ import React from "react";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 import Portfolio1 from "../../images/Portfolio1.png";
 import Portfolio2 from "../../images/Portfolio2.png";
-import Portfolio3 from "../../images/Portfolio3.png";
+import Portfolio3 from "../../images/Portfolio3.jpg";
 
 const Portfolio = () => {
   return (
@@ -12,9 +12,29 @@ const Portfolio = () => {
           <h1 className="double-underline fw-bold">Portfolio</h1>
           <h4 className="pt-5 fw-bold">My Last Projects :</h4>
         </div>
-
+        {/* savoryBite */}
         <div className="container text-white pb-5">
           <section className="row">
+            <div className="col-12 col-md-4" data-aos="fade-left">
+              <a
+                href="https://67de2bf2c32c9d5bedc48de8--silly-granita-448aa8.netlify.app/"
+                className="text-white"
+                target="blank"
+              >
+                <div
+                  className="mt-3 container-image"
+                  style={{ border: "2px solid white" }}
+                >
+                  <img src={Portfolio3} alt="" width="100%" height="200px" />
+                  <div className="overlay d-flex flex-column align-items-center justify-content-center text-center fw-bold">
+                    <p style={{ fontSize: "17px" }}>
+                      Savory Bite Restaurant Application
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
             {/* Portfolio */}
             <div className="col-12 col-md-4" data-aos="fade-right">
               <a
@@ -59,23 +79,6 @@ const Portfolio = () => {
             </div>
 
             {/* Service Station */}
-            <div className="col-12 col-md-4" data-aos="fade-left">
-              <a
-                href="http://98.70.74.252/"
-                className="text-white"
-                target="blank"
-              >
-                <div
-                  className="mt-3 container-image"
-                  style={{ border: "2px solid white" }}
-                >
-                  <img src={Portfolio3} alt="" width="100%" height="200px" />
-                  <div className="overlay d-flex flex-column align-items-center justify-content-center text-center fw-bold">
-                    <p style={{ fontSize: "17px" }}>Sameer Service Station</p>
-                  </div>
-                </div>
-              </a>
-            </div>
 
             {/* new One */}
             {/* <div className="col-12 col-md-4 mt-4"  data-aos="fade-right">
