@@ -1,8 +1,8 @@
 import React from "react";
-import VisibilityIcon from "@mui/icons-material/Visibility";
 import Portfolio1 from "../../images/Portfolio1.png";
 import Portfolio2 from "../../images/Portfolio2.png";
-import Portfolio3 from "../../images/Portfolio3.jpg";
+// import Portfolio3 from "../../images/Portfolio3.jpg";
+import portfolio from "../../images/portfolio3.jpg";
 
 const Portfolio = () => {
   return (
@@ -25,7 +25,7 @@ const Portfolio = () => {
                   className="mt-3 container-image"
                   style={{ border: "2px solid white" }}
                 >
-                  <img src={Portfolio3} alt="" width="100%" height="200px" />
+                  <img src={portfolio} alt="" width="100%" height="200px" />
                   <div className="overlay d-flex flex-column align-items-center justify-content-center text-center fw-bold">
                     <p style={{ fontSize: "17px" }}>
                       Savory Bite Restaurant Application
